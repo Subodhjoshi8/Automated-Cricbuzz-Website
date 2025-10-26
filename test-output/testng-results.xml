@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-14T14:15:36 IST" name="Suite" finished-at="2025-10-14T14:15:54 IST" duration-ms="17989">
+    <groups>
+    </groups>
+    <test started-at="2025-10-14T14:15:36 IST" name="Test" finished-at="2025-10-14T14:15:54 IST" duration-ms="17989">
+      <class name="Project001.Project001.Cricbuzz">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:36 IST" name="setUp" finished-at="2025-10-14T14:15:41 IST" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToRankings()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:41 IST" name="navigateToRankings" finished-at="2025-10-14T14:15:42 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRankings -->
+        <test-method signature="goToTeamsTab()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:42 IST" name="goToTeamsTab" finished-at="2025-10-14T14:15:42 IST" depends-on-methods="Project001.Project001.Cricbuzz.navigateToRankings" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToTeamsTab -->
+        <test-method signature="scroll()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:42 IST" name="scroll" finished-at="2025-10-14T14:15:43 IST" depends-on-methods="Project001.Project001.Cricbuzz.goToTeamsTab" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="fetchTopTeams()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:43 IST" name="fetchTopTeams" finished-at="2025-10-14T14:15:48 IST" depends-on-methods="Project001.Project001.Cricbuzz.scroll" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchTopTeams -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Project001.Project001.Cricbuzz@6025e1b6]" started-at="2025-10-14T14:15:48 IST" name="tearDown" finished-at="2025-10-14T14:15:54 IST" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Project001.Project001.Cricbuzz -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
